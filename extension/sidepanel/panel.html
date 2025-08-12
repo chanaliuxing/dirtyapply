@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Indeed Auto Apply Assistant</title>
+    <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+    <div class="panel-container">
+        <header class="panel-header">
+            <h1>🤖 Auto Apply Assistant</h1>
+            <div class="job-info" id="job-info" style="display: none;">
+                <h2 id="job-title">Job Title</h2>
+                <p id="job-company">Company Name</p>
+                <div class="match-score" id="match-score">
+                    <span class="score-label">Match Score:</span>
+                    <span class="score-value" id="score-value">0%</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="panel-main">
+            <!-- Job Analysis -->
+            <section class="panel-section" id="analysis-section" style="display: none;">
+                <h3>Job Analysis</h3>
+                <div class="analysis-content">
+                    <div class="skills-match">
+                        <h4>Required Skills</h4>
+                        <div id="required-skills" class="skills-list"></div>
+                    </div>
+                    <div class="gaps-analysis">
+                        <h4>Skill Gaps</h4>
+                        <div id="skill-gaps" class="gaps-list"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Resume Preview -->
+            <section class="panel-section" id="resume-section" style="display: none;">
+                <h3>Tailored Resume Preview</h3>
+                <div class="resume-preview">
+                    <div class="preview-controls">
+                        <button id="generate-resume" class="btn btn-primary">Generate Tailored Resume</button>
+                        <button id="download-resume" class="btn btn-secondary" style="display: none;">Download</button>
+                    </div>
+                    <div id="resume-content" class="resume-content"></div>
+                </div>
+            </section>
+
+            <!-- Auto Fill Controls -->
+            <section class="panel-section" id="autofill-section">
+                <h3>Auto Fill Controls</h3>
+                <div class="fill-controls">
+                    <div class="progress-bar" id="progress-bar" style="display: none;">
+                        <div class="progress-fill" id="progress-fill"></div>
+                        <span class="progress-text" id="progress-text">0%</span>
+                    </div>
+                    
+                    <div class="control-buttons">
+                        <button id="detect-fields" class="btn btn-outline">Detect Form Fields</button>
+                        <button id="preview-fill" class="btn btn-info">Preview Auto Fill</button>
+                        <button id="execute-fill" class="btn btn-success">Execute Auto Fill</button>
+                        <button id="submit-application" class="btn btn-warning" disabled>Submit Application</button>
+                    </div>
+
+                    <div class="fill-status" id="fill-status"></div>
+                </div>
+            </section>
+
+            <!-- Field Mapping -->
+            <section class="panel-section" id="fields-section" style="display: none;">
+                <h3>Detected Fields</h3>
+                <div id="detected-fields" class="fields-list"></div>
+            </section>
+
+            <!-- Activity Log -->
+            <section class="panel-section" id="log-section">
+                <h3>Activity Log</h3>
+                <div id="activity-log" class="activity-log">
+                    <p class="log-entry">Waiting for user action...</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="panel-footer">
+            <div class="safety-notice">
+                ⚠️ Always review before submitting applications
+            </div>
+        </footer>
+    </div>
+
+    <script src="panel.js"></script>
+</body>
+</html>

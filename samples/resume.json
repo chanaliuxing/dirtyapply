@@ -1,0 +1,101 @@
+{
+  "resume_profile_id": "R123",
+  "personal_info": {
+    "name": "Alex Chen",
+    "email": "alex.chen@email.com",
+    "phone": "+1-555-0123",
+    "location": "Vancouver, BC",
+    "linkedin": "linkedin.com/in/alexchen",
+    "work_auth": "CA_PR"
+  },
+  "experience": [
+    {
+      "id": "EXP001",
+      "company": "TechCorp Inc",
+      "title": "Data Analyst",
+      "start_date": "2022-01",
+      "end_date": "present",
+      "bullets": [
+        "Analyzed customer behavior data using SQL and Python, identifying key trends that increased conversion rates by 15%",
+        "Built interactive dashboards in Tableau for executive team, reducing reporting time by 3 hours weekly",
+        "Collaborated with marketing team on A/B testing initiatives, improving campaign performance metrics"
+      ]
+    },
+    {
+      "id": "EXP002", 
+      "company": "DataSoft Solutions",
+      "title": "Junior Analyst",
+      "start_date": "2020-06",
+      "end_date": "2021-12",
+      "bullets": [
+        "Processed and cleaned large datasets using pandas and NumPy for monthly business reports",
+        "Created automated ETL pipelines that reduced data processing time by 40%",
+        "Supported senior analysts with ad-hoc analysis and data visualization tasks"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Statistics",
+      "school": "University of British Columbia", 
+      "graduation_date": "2020-05",
+      "gpa": "3.7/4.0"
+    }
+  ],
+  "skills": {
+    "technical": ["SQL", "Python", "Tableau", "Excel", "R", "pandas", "NumPy", "scikit-learn"],
+    "business": ["Data Analysis", "Business Intelligence", "Statistical Modeling", "A/B Testing"],
+    "soft": ["Communication", "Problem Solving", "Team Collaboration", "Project Management"]
+  },
+  "evidence_vault": [
+    {
+      "id": "E001",
+      "text": "Led analysis of customer churn data that identified 3 key risk factors, enabling proactive retention strategies",
+      "skills": ["SQL", "Statistical Analysis", "Customer Analytics"],
+      "year": 2023,
+      "source": "TechCorp Annual Review",
+      "achievement_type": "impact"
+    },
+    {
+      "id": "E002", 
+      "text": "Built automated reporting system using Python that reduced manual work by 20 hours per month",
+      "skills": ["Python", "Automation", "ETL"],
+      "year": 2023,
+      "source": "TechCorp Project Portfolio",
+      "achievement_type": "efficiency"
+    },
+    {
+      "id": "E003",
+      "text": "Presented quarterly business insights to C-level executives, influencing product roadmap decisions",
+      "skills": ["Data Visualization", "Executive Communication", "Business Intelligence"],
+      "year": 2023,
+      "source": "TechCorp Leadership Feedback",
+      "achievement_type": "leadership"
+    },
+    {
+      "id": "E004",
+      "text": "Collaborated with cross-functional teams of 8 members on customer segmentation project",
+      "skills": ["Team Collaboration", "Customer Segmentation", "Project Management"],
+      "year": 2022,
+      "source": "TechCorp Team Projects",
+      "achievement_type": "collaboration"
+    }
+  ],
+  "user_profile": {
+    "work_auth": "CA_PR",
+    "location": "Vancouver, BC",
+    "relocate": true,
+    "notice_period": "2w",
+    "salary_expectation": {
+      "min": 75000,
+      "max": 95000,
+      "currency": "CAD"
+    },
+    "preferences": {
+      "remote_ok": true,
+      "hybrid_preferred": true,
+      "company_size": ["startup", "mid", "large"],
+      "industries": ["tech", "fintech", "healthcare"]
+    }
+  }
+}

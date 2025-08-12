@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Port Detection Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .status { padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        .info { background: #d1ecf1; color: #0c5460; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Companion Port Detection Test</h1>
+    <div id="results"></div>
+    
+    <script>
+        async function testPorts() {
+            const resultsDiv = document.getElementById('results');
+            const ports = [8001, 8002, 8003, 8080];
+            
+            resultsDiv.innerHTML += '<div class="info">🔍 Testing companion ports...</div>';
+            
+            for (const port of ports) {
+                const url = `http://127.0.0.1:${port}/health`;
+                
+                try {
+                    resultsDiv.innerHTML += `<div class="info">📡 Testing port ${port}...</div>`;
+                    
+                    const response = await fetch(url, {
+                        method: 'GET',
+                        mode: 'cors'
+                    });
+                    
+                    if (response.ok) {
+                        const data = await response.json();
+                        resultsDiv.innerHTML += `<div class="success">✅ Port ${port}: ${data.service || data.status}</div>`;
+                        
+                        // Show CORS headers
+                        const corsHeaders = [];
+                        for (const [key, value] of response.headers.entries()) {
+                            if (key.toLowerCase().includes('access-control')) {
+                                corsHeaders.push(`${key}: ${value}`);
+                            }
+                        }
+                        
+                        if (corsHeaders.length > 0) {
+                            resultsDiv.innerHTML += `<div class="info">📋 CORS headers: ${corsHeaders.join(', ')}</div>`;
+                        }
+                        
+                        return; // Found working companion
+                    }
+                } catch (error) {
+                    resultsDiv.innerHTML += `<div class="error">❌ Port ${port}: ${error.message}</div>`;
+                }
+            }
+            
+            resultsDiv.innerHTML += '<div class="error">❌ No companion found on any port</div>';
+        }
+        
+        // Auto-run test
+        document.addEventListener('DOMContentLoaded', () => {
+            testPorts();
+        });
+    </script>
+</body>
+</html>

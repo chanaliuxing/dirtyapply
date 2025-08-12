@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Indeed Auto Apply</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="popup-container">
+        <header class="header">
+            <div class="logo">
+                <span class="icon">🤖</span>
+                <h1>Indeed Auto Apply</h1>
+            </div>
+            <div class="status-indicator" id="status-indicator">
+                <span class="dot" id="status-dot"></span>
+                <span id="status-text">Checking...</span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- Profile Section -->
+            <section class="section" id="profile-section">
+                <h2>Profile Setup</h2>
+                <div class="profile-form">
+                    <div class="form-row">
+                        <input type="text" id="firstName" placeholder="First Name" required>
+                        <input type="text" id="lastName" placeholder="Last Name" required>
+                    </div>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <input type="tel" id="phone" placeholder="Phone Number" required>
+                    <input type="text" id="location" placeholder="Location (City, Province)" required>
+                    
+                    <select id="workAuth" required>
+                        <option value="">Work Authorization</option>
+                        <option value="citizen">Canadian Citizen</option>
+                        <option value="pr">Permanent Resident</option>
+                        <option value="work_permit">Work Permit</option>
+                        <option value="study_permit">Study Permit</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <input type="text" id="skills" placeholder="Skills (comma separated)" title="e.g. JavaScript, Python, React">
+                    <input type="file" id="resume" accept=".pdf,.doc,.docx" title="Upload your resume">
+                    
+                    <button id="save-profile" class="btn btn-primary">Save Profile</button>
+                </div>
+            </section>
+
+            <!-- Quick Actions -->
+            <section class="section" id="actions-section">
+                <h2>Quick Actions</h2>
+                <div class="action-buttons">
+                    <button id="analyze-page" class="btn btn-secondary">Analyze Current Page</button>
+                    <button id="auto-fill" class="btn btn-success">Auto Fill Form</button>
+                    <button id="take-screenshot" class="btn btn-info">Take Screenshot</button>
+                </div>
+            </section>
+
+            <!-- Statistics -->
+            <section class="section" id="stats-section">
+                <h2>Today's Stats</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" id="applications-today">0</span>
+                        <span class="stat-label">Applications</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="success-rate">0%</span>
+                        <span class="stat-label">Success Rate</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Settings -->
+            <section class="section" id="settings-section">
+                <h2>Settings</h2>
+                <div class="settings-form">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="auto-submit">
+                        <span class="checkmark"></span>
+                        Enable Auto Submit (Use with caution)
+                    </label>
+                    
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="require-confirmation" checked>
+                        <span class="checkmark"></span>
+                        Require confirmation before submit
+                    </label>
+
+                    <div class="form-row">
+                        <label for="max-applications">Daily Limit:</label>
+                        <select id="max-applications">
+                            <option value="5">5 applications</option>
+                            <option value="10" selected>10 applications</option>
+                            <option value="20">20 applications</option>
+                            <option value="50">50 applications</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Companion Status -->
+            <section class="section" id="companion-section">
+                <h2>Local Assistant</h2>
+                <div class="companion-status" id="companion-status">
+                    <div class="status-row">
+                        <span>Status:</span>
+                        <span id="companion-text">Checking...</span>
+                    </div>
+                    <div class="status-row">
+                        <span>Port:</span>
+                        <span>127.0.0.1:8001</span>
+                    </div>
+                    <button id="start-companion" class="btn btn-outline" style="display: none;">Start Assistant</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-links">
+                <a href="#" id="view-logs">View Logs</a>
+                <a href="#" id="export-data">Export Data</a>
+                <a href="#" id="help">Help</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

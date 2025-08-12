@@ -1,0 +1,22 @@
+{
+  "allowedTools": [
+    "Edit",
+    "Bash(pytest:*)",
+    "Bash(npx playwright:*)",
+    "Bash(docker:*)",
+    "Bash(git:*)",
+    "Bash(make:*)",
+    "Bash(npm:*)",
+    "Bash(pnpm:*)",
+    "Bash(python:*)",
+    "Bash(uvicorn:*)",
+    "Bash(pip:*)"
+  ],
+  "testingConfig": {
+    "enableTDD": true,
+    "requireFailingTestsFirst": true,
+    "maxFailures": 1,
+    "testRunnerPreference": "pytest",
+    "e2eFramework": "playwright"
+  }
+}

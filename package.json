@@ -1,0 +1,27 @@
+{
+  "name": "apply-copilot",
+  "version": "1.0.0",
+  "description": "Job-Driven Resume Rewriter & Auto-Apply Agent",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm run --recursive build",
+    "dev": "pnpm run --recursive --parallel dev",
+    "test": "pnpm run --recursive test",
+    "lint": "pnpm run --recursive lint",
+    "type-check": "pnpm run --recursive type-check"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "prettier": "^3.0.0",
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

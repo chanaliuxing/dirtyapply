@@ -1,0 +1,118 @@
+2025-08-11 11:37:02,845 - INFO - Starting Indeed Automation Local Companion (Simple Version)...
+2025-08-11 11:37:02,845 - INFO - Endpoints available:
+2025-08-11 11:37:02,845 - INFO -   POST /click - Click at coordinates
+2025-08-11 11:37:02,846 - INFO -   POST /type - Type text
+2025-08-11 11:37:02,846 - INFO -   POST /upload - Upload file
+2025-08-11 11:37:02,846 - INFO -   POST /screenshot - Take screenshot
+2025-08-11 11:37:02,846 - INFO -   POST /scroll - Scroll page
+2025-08-11 11:37:02,846 - INFO -   POST /focus - Focus browser window
+2025-08-11 11:37:02,846 - INFO -   GET /health - Health check
+2025-08-11 11:37:02,846 - INFO - Screen size detected: Size(width=2560, height=1440)
+2025-08-11 11:37:02,847 - INFO - PyAutoGUI is working correctly
+2025-08-11 11:49:10,444 - INFO - Screenshot saved: screenshots\test_component.png
+2025-08-11 11:49:58,142 - INFO - Screenshot saved: screenshots\test_screenshot.png
+2025-08-11 11:49:58,303 - INFO - Screenshot saved: screenshots\automated_test_1754938198.png
+2025-08-11 11:49:58,967 - INFO - Typed text: This is a test...
+2025-08-11 11:50:50,190 - INFO - Screenshot saved: screenshots\demo_screenshot.png
+2025-08-11 11:51:01,942 - INFO - Focused browser window
+2025-08-11 11:53:52,369 - INFO - Starting Indeed Automation Local Companion (Simple Version)...
+2025-08-11 11:53:52,370 - INFO - Endpoints available:
+2025-08-11 11:53:52,370 - INFO -   POST /click - Click at coordinates
+2025-08-11 11:53:52,370 - INFO -   POST /type - Type text
+2025-08-11 11:53:52,370 - INFO -   POST /upload - Upload file
+2025-08-11 11:53:52,371 - INFO -   POST /screenshot - Take screenshot
+2025-08-11 11:53:52,371 - INFO -   POST /scroll - Scroll page
+2025-08-11 11:53:52,371 - INFO -   POST /focus - Focus browser window
+2025-08-11 11:53:52,372 - INFO -   GET /health - Health check
+2025-08-11 11:53:52,372 - INFO - Screen size detected: Size(width=2560, height=1440)
+2025-08-11 11:53:52,372 - INFO - PyAutoGUI is working correctly
+2025-08-11 16:13:11,878 - INFO - Starting Indeed Automation Local Companion...
+2025-08-11 16:13:11,879 - INFO - Endpoints available:
+2025-08-11 16:13:11,879 - INFO -   POST /click - Click at coordinates
+2025-08-11 16:13:11,880 - INFO -   POST /type - Type text
+2025-08-11 16:13:11,880 - INFO -   POST /upload - Upload file
+2025-08-11 16:13:11,881 - INFO -   POST /screenshot - Take screenshot
+2025-08-11 16:13:11,882 - INFO -   POST /ocr_find - Find text with OCR
+2025-08-11 16:13:11,882 - INFO -   POST /scroll - Scroll page
+2025-08-11 16:13:11,883 - INFO -   POST /focus - Focus browser window
+2025-08-11 16:13:11,883 - INFO -   GET /health - Health check
+2025-08-11 16:13:11,884 - INFO - Screen size detected: Size(width=2560, height=1440)
+2025-08-11 16:13:11,898 - WARNING - Tesseract OCR not available - OCR features will be limited
+2025-08-11 16:15:03,553 - INFO - Starting Indeed Automation Local Companion...
+2025-08-11 16:15:03,553 - INFO - Endpoints available:
+2025-08-11 16:15:03,554 - INFO -   POST /click - Click at coordinates
+2025-08-11 16:15:03,554 - INFO -   POST /type - Type text
+2025-08-11 16:15:03,555 - INFO -   POST /upload - Upload file
+2025-08-11 16:15:03,555 - INFO -   POST /screenshot - Take screenshot
+2025-08-11 16:15:03,555 - INFO -   POST /ocr_find - Find text with OCR
+2025-08-11 16:15:03,556 - INFO -   POST /scroll - Scroll page
+2025-08-11 16:15:03,556 - INFO -   POST /focus - Focus browser window
+2025-08-11 16:15:03,557 - INFO -   GET /health - Health check
+2025-08-11 16:15:03,557 - INFO - Screen size detected: Size(width=2560, height=1440)
+2025-08-11 16:15:03,568 - WARNING - Tesseract OCR not available - OCR features will be limited
+2025-08-11 16:15:03,569 - INFO - Starting server on port 8002
+2025-08-11 16:37:54,338 - INFO - Starting Indeed Automation Local Companion...
+2025-08-11 16:37:54,339 - INFO - Endpoints available:
+2025-08-11 16:37:54,339 - INFO -   POST /click - Click at coordinates
+2025-08-11 16:37:54,339 - INFO -   POST /type - Type text
+2025-08-11 16:37:54,339 - INFO -   POST /upload - Upload file
+2025-08-11 16:37:54,339 - INFO -   POST /screenshot - Take screenshot
+2025-08-11 16:37:54,341 - INFO -   POST /ocr_find - Find text with OCR
+2025-08-11 16:37:54,341 - INFO -   POST /scroll - Scroll page
+2025-08-11 16:37:54,341 - INFO -   POST /focus - Focus browser window
+2025-08-11 16:37:54,341 - INFO -   GET /health - Health check
+2025-08-11 16:37:54,341 - INFO - Screen size detected: Size(width=2560, height=1440)
+2025-08-11 16:37:54,348 - WARNING - Tesseract OCR not available - OCR features will be limited
+2025-08-11 16:37:54,349 - INFO - Starting server on port 8002
+2025-08-11 16:44:43,611 - INFO - Starting Indeed Automation Local Companion...
+2025-08-11 16:44:43,612 - INFO - Endpoints available:
+2025-08-11 16:44:43,612 - INFO -   POST /click - Click at coordinates
+2025-08-11 16:44:43,613 - INFO -   POST /type - Type text
+2025-08-11 16:44:43,613 - INFO -   POST /upload - Upload file
+2025-08-11 16:44:43,614 - INFO -   POST /screenshot - Take screenshot
+2025-08-11 16:44:43,614 - INFO -   POST /ocr_find - Find text with OCR
+2025-08-11 16:44:43,615 - INFO -   POST /scroll - Scroll page
+2025-08-11 16:44:43,615 - INFO -   POST /focus - Focus browser window
+2025-08-11 16:44:43,616 - INFO -   GET /health - Health check
+2025-08-11 16:44:43,616 - INFO - Screen size detected: Size(width=2560, height=1440)
+2025-08-11 16:44:43,628 - WARNING - Tesseract OCR not available - OCR features will be limited
+2025-08-11 16:44:43,630 - INFO - Starting server on port 8002
+2025-08-11 16:46:57,507 - INFO - Starting Indeed Automation Local Companion...
+2025-08-11 16:46:57,508 - INFO - Endpoints available:
+2025-08-11 16:46:57,508 - INFO -   POST /click - Click at coordinates
+2025-08-11 16:46:57,508 - INFO -   POST /type - Type text
+2025-08-11 16:46:57,509 - INFO -   POST /upload - Upload file
+2025-08-11 16:46:57,509 - INFO -   POST /screenshot - Take screenshot
+2025-08-11 16:46:57,509 - INFO -   POST /ocr_find - Find text with OCR
+2025-08-11 16:46:57,510 - INFO -   POST /scroll - Scroll page
+2025-08-11 16:46:57,510 - INFO -   POST /focus - Focus browser window
+2025-08-11 16:46:57,510 - INFO -   GET /health - Health check
+2025-08-11 16:46:57,511 - INFO - Screen size detected: Size(width=2560, height=1440)
+2025-08-11 16:46:57,518 - WARNING - Tesseract OCR not available - OCR features will be limited
+2025-08-11 16:46:57,519 - INFO - Starting server on port 8002
+2025-08-11 16:50:16,289 - INFO - Starting Indeed Automation Local Companion...
+2025-08-11 16:50:16,290 - INFO - Endpoints available:
+2025-08-11 16:50:16,290 - INFO -   POST /click - Click at coordinates
+2025-08-11 16:50:16,291 - INFO -   POST /type - Type text
+2025-08-11 16:50:16,291 - INFO -   POST /upload - Upload file
+2025-08-11 16:50:16,291 - INFO -   POST /screenshot - Take screenshot
+2025-08-11 16:50:16,292 - INFO -   POST /ocr_find - Find text with OCR
+2025-08-11 16:50:16,292 - INFO -   POST /scroll - Scroll page
+2025-08-11 16:50:16,292 - INFO -   POST /focus - Focus browser window
+2025-08-11 16:50:16,293 - INFO -   GET /health - Health check
+2025-08-11 16:50:16,293 - INFO - Screen size detected: Size(width=2560, height=1440)
+2025-08-11 16:50:16,302 - WARNING - Tesseract OCR not available - OCR features will be limited
+2025-08-11 16:50:16,303 - INFO - Starting server on port 8002
+2025-08-11 16:55:01,980 - INFO - Starting Indeed Automation Local Companion...
+2025-08-11 16:55:01,980 - INFO - Endpoints available:
+2025-08-11 16:55:01,981 - INFO -   POST /click - Click at coordinates
+2025-08-11 16:55:01,981 - INFO -   POST /type - Type text
+2025-08-11 16:55:01,981 - INFO -   POST /upload - Upload file
+2025-08-11 16:55:01,982 - INFO -   POST /screenshot - Take screenshot
+2025-08-11 16:55:01,982 - INFO -   POST /ocr_find - Find text with OCR
+2025-08-11 16:55:01,982 - INFO -   POST /scroll - Scroll page
+2025-08-11 16:55:01,982 - INFO -   POST /focus - Focus browser window
+2025-08-11 16:55:01,982 - INFO -   GET /health - Health check
+2025-08-11 16:55:01,983 - INFO - Screen size detected: Size(width=2560, height=1440)
+2025-08-11 16:55:01,989 - WARNING - Tesseract OCR not available - OCR features will be limited
+2025-08-11 16:55:01,989 - INFO - Starting server on port 8001
