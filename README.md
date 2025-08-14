@@ -14,7 +14,8 @@ An intelligent, ethical job application automation system implementing the "职�
 This system automates job applications on Indeed.ca while maintaining ethical standards and human oversight. It combines browser automation, AI-powered resume tailoring, and intelligent job matching to streamline your job search process.
 
 ### ⚡ Quick Start
-**Ready to get started?** → **[QUICK_START.md](QUICK_START.md)**
+1. Copy `.env.example` to `.env` and fill in your database URL, MinIO credentials, companion token, and `LLM_PROVIDER`.
+2. Follow the detailed steps in **[QUICK_START.md](QUICK_START.md)**.
 
 ## ✨ Key Features
 
